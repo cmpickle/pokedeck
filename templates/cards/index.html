@@ -1,0 +1,9 @@
+{% if cards %}
+    <ul>
+        {% for card in cards %}
+            <li><a href="/cards/{{card.number}}/">{{card.name}} | {{card.set}} | {{card.number}}</a><button>Add to collection</button></li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No cards available.</p>
+{% endif %}

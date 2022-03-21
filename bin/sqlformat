@@ -1,4 +1,4 @@
-#!/home/cmpickle/code/pokedeck/bin/python
+#!/home/cmpickle/code/deckshop/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
